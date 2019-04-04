@@ -1,5 +1,26 @@
 # Run application
 
+## Required tools
+
+* Docker
+* docker-compose
+* Node.js
+* make (comand line)
+* httpie
+
+## Instalation
+
+## Docker
+* For Linux (Ubuntu)
+    * https://docs.docker.com/install/linux/docker-ce/ubuntu/
+
+* For Mac
+    * https://docs.docker.com/docker-for-mac/install
+
+## docker-compose
+
+* https://docs.docker.com/compose/install/
+
 ### Development mode
 
 In gatsby-examples perfrom commands listed below:
