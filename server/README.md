@@ -10,7 +10,7 @@ https://httpie.org/
 
 List tasks
 
-    http http://localhost:3000/tasks name="Some task"
+    http http://localhost:3000/tasks
     
 Create taks
 
@@ -20,17 +20,17 @@ Get single task
 
     # change id url path
 
-    http GET http://localhost:3000/tasks/5ca2722590229c23da0b3c73
+    http GET http://localhost:3000/tasks/{task_id}
 
 Update task
 
     # change id url path
-    http PUT http://localhost:3000/tasks/5ca2722590229c23da0b3c73 name="new name" status:='["ongoing"]'
+    http PUT http://localhost:3000/tasks/{task_id} name="new name" status:='["ongoing"]'
 
 Delete task
 
     # change id url path
-    http DELETE http://localhost:3000/tasks/5ca2722590229c23da0b3c73
+    http DELETE http://localhost:3000/tasks/{task_id}
 
 # GRAPHQL
 
